@@ -1,0 +1,256 @@
+.ui-personal-header {
+  width: 10rem;
+  height: 6.12rem;
+  background: #fc4c56;
+  z-index: 10;
+  margin-bottom: .106667rem;
+}
+.ui-personal-header h4 {
+  font-size: 18px;
+  color: #fff;
+  height: 1.173333rem;
+  width: 10rem;
+  text-align: center;
+  line-height: 1.173333rem;
+  position: relative;
+}
+.ui-personal-header h4 a {
+  width: .333333rem;
+  height: .56rem;
+  position: absolute;
+  top: .133333rem;
+  left: .426667rem;
+  line-height: 1.173333rem;
+  display: inline-block;
+}
+.ui-personal-header h4 a img {
+  width: .333333rem;
+  height: .56rem;
+}
+.ui-personal-header p.ui-personal-welcome {
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  margin-top: .8rem;
+}
+.ui-personal-header .ui-personal-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .4rem;
+  box-sizing: border-box;
+  width: 2.50rem;
+  height: 2.50rem;
+  border-radius: 50%;
+  border: 0.2rem solid #fb627c;
+}
+.ui-personal-header .ui-personal-img .ui-personal-blur {
+  box-sizing: border-box;
+  width: 2.13rem;
+  height: 2.13rem;
+  border: 0.2rem solid #ffa7b3;
+  border-radius: 50%;
+}
+.ui-personal-header .ui-personal-img .ui-personal-blur img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+.ui-personal-header .ui-personal-bg {
+  width: 10rem;
+  height: 1.60rem;
+  box-sizing: border-box;
+  border: 1px solid #f0f0f0;
+  display: block;
+  background: #f0f0f0;
+  margin-bottom: .106667rem;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show {
+  margin-top: -0.853333rem;
+  left: .426667rem;
+  width: 9.2rem;
+  height: 1.706667rem;
+  border-radius: .106667rem;
+  box-shadow: 0 .133333rem .133333rem #eaebee;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff url("../images/heng_03.png") no-repeat center 0.666667rem;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-left,
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-right {
+  width: 2.506667rem;
+  height: 1.706667rem;
+  text-align: center;
+  display: inline-block;
+  margin-left: 1.28rem;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-left p.ui-num,
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-right p.ui-num {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: .213333rem;
+  line-height: .826667rem;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-left p.ui-personal-desc,
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-right p.ui-personal-desc {
+  font-size: 10px;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-right {
+  margin-left: 1.6rem;
+}
+[data-dpr="3"] .ui-personal-header .ui-personal-show {
+  background: #fff url("../images/heng_22.png") no-repeat center 0.666667rem;
+}
+[data-dpr="2"] .ui-personal-header h4 {
+  font-size: 36px;
+}
+[data-dpr="3"] .ui-personal-header h4 {
+  font-size: 54px;
+}
+[data-dpr="2"] .ui-personal-header p.ui-personal-welcome {
+  font-size: 24px;
+}
+[data-dpr="3"] .ui-personal-header p.ui-personal-welcome {
+  font-size: 36px;
+}
+[data-dpr="2"] .ui-personal-header .ui-personal-show .ui-personal-left p.ui-num,
+[data-dpr="2"] .ui-personal-header .ui-personal-show .ui-personal-right p.ui-num {
+  font-size: 40px;
+}
+[data-dpr="2"] .ui-personal-header .ui-personal-show .ui-personal-left p.ui-personal-desc,
+[data-dpr="2"] .ui-personal-header .ui-personal-show .ui-personal-right p.ui-personal-desc {
+  font-size: 20px;
+}
+[data-dpr="3"] .ui-personal-header .ui-personal-show .ui-personal-left p.ui-num,
+[data-dpr="3"] .ui-personal-header .ui-personal-show .ui-personal-right p.ui-num {
+  font-size: 60px;
+}
+[data-dpr="3"] .ui-personal-header .ui-personal-show .ui-personal-left p.ui-personal-desc,
+[data-dpr="3"] .ui-personal-header .ui-personal-show .ui-personal-right p.ui-personal-desc {
+  font-size: 30px;
+}
+.ui-personal-content {
+  width: 10rem;
+  padding-bottom: 2.346667rem;
+  background: #f0f0f0;
+}
+.ui-personal-content .ui-personal-list {
+  border-radius: .106667rem;
+  background: #fff;
+  width: 9.2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ui-personal-content .ui-personal-list li {
+  width: 8.16rem;
+  min-height: 1.493333rem;
+  line-height: 1.493333rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: .026667rem dashed #f1f1f1;
+}
+.ui-personal-content .ui-personal-list li ul.ui-personal-detial {
+  width: 8.133333rem;
+  height: auto;
+  overflow: hidden;
+  display: none;
+}
+.ui-personal-content .ui-personal-list li ul.ui-personal-detial li {
+  width: 8.133333rem;
+  height: .533333rem;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  border: 1px solid #fff;
+}
+.ui-personal-content .ui-personal-list li ul.ui-personal-detial li a {
+  text-indent: 0.9rem;
+  display: block;
+  border: none;
+  background-color: rgba(240, 240, 240, 0.2);
+}
+.ui-personal-content .ui-personal-list li:nth-of-type(1) a.ui-tu {
+  background: url('../images/personal01.png') no-repeat left center;
+}
+.ui-personal-content .ui-personal-list li:nth-of-type(2) a.ui-tu {
+  background: url('../images/personal04.png') no-repeat left center;
+}
+.ui-personal-content .ui-personal-list li:nth-of-type(3) a.ui-tu {
+  background: url('../images/personal05.png') no-repeat left center;
+}
+.ui-personal-content .ui-personal-list li:nth-of-type(4) a.ui-tu {
+  background: url('../images/personal06.png') no-repeat left center;
+}
+.ui-personal-content .ui-personal-list li:nth-of-type(5) a.ui-tu {
+  background: url('../images/personal07.png') no-repeat left center;
+}
+.ui-personal-content .ui-personal-list li:nth-of-type(6) a.ui-tu {
+  background: url('../images/personal08.png') no-repeat left center;
+}
+.ui-personal-content .ui-personal-list li a.ui-tu {
+  font-size: 12px;
+  color: #353535;
+  display: block;
+  height: 1.493333rem;
+}
+.ui-personal-content .ui-personal-list li a.ui-tu span:nth-of-type(1) {
+  text-indent: .906667rem;
+  float: left;
+}
+.ui-personal-content .ui-personal-list li a.ui-tu span:nth-of-type(2) {
+  margin-right: .133333rem;
+  float: right;
+}
+.ui-personal-content .ui-personal-aboutus {
+  width: 9.2rem;
+  height: 3.226667rem;
+  background: #fff;
+  margin-top: .32rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: .106667rem;
+}
+.ui-personal-content .ui-personal-aboutus li {
+  width: 8.16rem;
+  height: 1.626667rem;
+  line-height: 1.626667rem;
+  border-bottom: .026667rem dashed #f1f1f1;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ui-personal-content .ui-personal-aboutus li:nth-of-type(1) a.ui-tu {
+  background: url('../images/personal02.png') no-repeat left center;
+}
+.ui-personal-content .ui-personal-aboutus li:nth-of-type(2) a.ui-tu {
+  background: url('../images/personal03.png') no-repeat left center;
+}
+.ui-personal-content .ui-personal-aboutus li a.ui-tu {
+  font-size: 12px;
+  color: #353535;
+  display: block;
+  height: 100%;
+}
+.ui-personal-content .ui-personal-aboutus li a.ui-tu span:nth-of-type(1) {
+  text-indent: .906667rem;
+  float: left;
+}
+.ui-personal-content .ui-personal-aboutus li a.ui-tu span:nth-of-type(2) {
+  margin-right: .133333rem;
+  float: right;
+}
+[data-dpr="2"] .ui-personal-content .ui-personal-list li a {
+  font-size: 24px;
+  color: #353535;
+}
+[data-dpr="3"] .ui-personal-content .ui-personal-list li a {
+  font-size: 36px;
+  color: #353535;
+}
+[data-dpr="2"] .ui-personal-content .ui-personal-aboutus li a {
+  font-size: 24px;
+  color: #353535;
+}
+[data-dpr="3"] .ui-personal-content .ui-personal-aboutus li a {
+  font-size: 36px;
+  color: #353535;
+}
