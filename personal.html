@@ -121,7 +121,8 @@
     <script type="text/javascript">
         $(".ui-personal-list li").on('click', function(event) {
             event.stopPropagation();
-            $(this).find(".ui-personal-detial").slideToggsle(400).parents().siblings().find(".ui-personal-detial").slideUp(400);			
+            $(this).find(".ui-personal-detial").slideToggle(400);
+            $(this).siblings().find(".ui-personal-detial").slideUp(400);
         })
     </script>
 	<script type="text/javascript">
