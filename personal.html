@@ -17,7 +17,7 @@
         <h4>
             <a href=""><img src="./images/back_arrow.png" alt=""></a> 个人中心 </h4>
         <p class="ui-personal-welcome">你好，司马先生/女士</p>
-        <div class="ui-personal-img">
+        <div class="ui-personal-img" >
             <div class="ui-personal-blur">
                 <img src="./images/17.png" alt="">
             </div>
@@ -125,6 +125,55 @@
 
         })
     </script>
+	<script type="text/javascript">
+	$(".ui-personal-img").on("click",showActionSheet)
+function showActionSheet(){
+console.log("zzz")
+var bts = [{
+title:"拍照"
+},{
+title:'从相册选择'
+}];
+plus.nativeUI.actionSheet(
+{
+cancel:'取消1',
+buttons:bts
+//	buttons:[{title:'拍照'},{title:'从相册选择q'}]
+},
+function(e){
+if(e.index == 1){
+getImage();
+}else if(e.index == 2){
+galleryImgs();
+}
+})
+}
+//相机
+function getImage(){
+var cmr = plus.camera.getCamera();
+cmr.captureImage(function(p){
+plus.io.resolveLocalFileSystemURL(p,function(entry){
+createItem(entry);
+//	compressImage(entry.toLocalURL(),entry.name);
+},function(e){
+plus.nativeUI.toast("错误"+e.message);
+});
+},function(e){
+filter:'image'
+})
+}
+//相册
+function galleryImgs(){
+plus.gallery.pick(function(e){
+var name = e.substr(e.lastIndexOf('/')+1);
+compressImage(e,name);
+},function(e){
+filter:'image'
+})
+}
+
+
+</script>
 </body>
 
 </html>
