@@ -21,7 +21,7 @@
             <div class="ui-personal-blur">
                 <img src="./images/17.png" alt="">
             </div>
-
+			 <input type="file" id="files" style="display: none" onchange="fileImport();">
         </div>
         <div class="ui-personal-bg">
             <div class="ui-personal-show">
@@ -126,55 +126,27 @@
         })
     </script>
 	<script type="text/javascript">
-	$(".ui-personal-img").on("click",showActionSheet)
-function showActionSheet(){
-console.log("zzz")
-confirm("皮一下很开心！");
-var bts = [{
-title:"拍照"
-},{
-title:'从相册选择'
-}];
-plus.nativeUI.actionSheet(
-{
-cancel:'取消1',
-buttons:bts
-//	buttons:[{title:'拍照'},{title:'从相册选择q'}]
-},
-function(e){
-if(e.index == 1){
-getImage();
-}else if(e.index == 2){
-galleryImgs();
-}
-})
-}
-//相机
-function getImage(){
-var cmr = plus.camera.getCamera();
-cmr.captureImage(function(p){
-plus.io.resolveLocalFileSystemURL(p,function(entry){
-createItem(entry);
-//	compressImage(entry.toLocalURL(),entry.name);
-},function(e){
-plus.nativeUI.toast("错误"+e.message);
-});
-},function(e){
-filter:'image'
-})
-}
-//相册
-function galleryImgs(){
-plus.gallery.pick(function(e){
-var name = e.substr(e.lastIndexOf('/')+1);
-compressImage(e,name);
-},function(e){
-filter:'image'
-})
-}
+		$(".ui-personal-blur").click(function() {
+            $("#files").click();
+        })
 
+        function fileImport() {
+            //获取读取我文件的File对象
+            var selectedFile = document.getElementById('files').files[0];
+            var name = selectedFile.name; //读取选中文件的文件名
+            var size = selectedFile.size; //读取选中文件的大小
+            console.log("文件名:" + name + "大小:" + size);
 
-</script>
+            var reader = new FileReader(); //这是核心,读取操作就是由它完成.
+            var urll = reader.readAsDataURL(selectedFile, "GB2312"); //读取文件的内容,也可以读取文件的URL
+
+            reader.onload = function() {
+                //当读取完成后回调这个函数,然后此时文件的内容存储到了result中,直接操作即可
+                console.log(this.result);
+                $(".ui-personal-img .ui-personal-blur img").attr('src', this.result)
+            }
+        }
+	</script>
 </body>
 
 </html>

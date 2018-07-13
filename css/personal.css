@@ -55,6 +55,7 @@
   height: 100%;
   vertical-align: middle;
   text-align: center;
+  border-radius:50%;
 }
 .ui-personal-header .ui-personal-bg {
   width: 10rem;
