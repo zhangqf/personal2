@@ -210,6 +210,10 @@
   margin-right: .133333rem;
   float: right;
 }
+.ui-personal-content .ui-personal-list li a.ui-tu span:nth-of-type(2) img {
+  width: .08rem;
+  height: .133333rem;
+}
 .ui-personal-content .ui-personal-aboutus {
   width: 9.2rem;
   height: 3.226667rem;
@@ -265,4 +269,12 @@
 [data-dpr="3"] .ui-personal-content .ui-personal-aboutus li a {
   font-size: 36px;
   color: #353535;
+}
+[data-dpr="2"] .ui-personal-content .ui-personal-list li a.ui-tu span:nth-of-type(2) img {
+  width: .16rem;
+  height: .28444rem;
+}
+[data-dpr="3"] .ui-personal-content .ui-personal-list li a.ui-tu span:nth-of-type(2) img {
+  width: .24rem;
+  height: .426667rem;
 }
