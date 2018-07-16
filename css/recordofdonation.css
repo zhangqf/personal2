@@ -1,0 +1,122 @@
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+  background: #f0f0f0;
+}
+.ui-recordofdonation-header {
+  width: 10rem;
+  height: 1.12rem;
+  background: #fc4c56;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  line-height: 1.12rem;
+  position: relative;
+}
+.ui-recordofdonation-header a {
+  width: .333333rem;
+  height: 1.12rem;
+  position: absolute;
+  top: center;
+  left: .426667rem;
+  line-height: 1.12rem;
+  display: inline-block;
+}
+.ui-recordofdonation-header a img {
+  width: .333333rem;
+  height: .56rem;
+  vertical-align: middle;
+}
+[data-dpr="2"] .ui-recordofdonation-header {
+  font-size: 36px;
+}
+[data-dpr="3"] .ui-recordofdonation-header {
+  font-size: 54px;
+}
+.ui-recordofdonation-container {
+  width: 10rem;
+  background: #f0f0f0;
+  padding-top: .56rem;
+  padding-bottom: .266667rem;
+}
+.ui-recordofdonation-container li {
+  width: 9.146667rem;
+  height: 2.826667rem;
+  border-radius: 8px;
+  background: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: .266667rem;
+}
+.ui-recordofdonation-container li .ui-list-left {
+  width: 3.04rem;
+  height: 2.826667rem;
+  float: left;
+  line-height: 2.826667rem;
+  text-align: center;
+}
+.ui-recordofdonation-container li .ui-list-left img {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 8px;
+  vertical-align: middle;
+}
+.ui-recordofdonation-container li .ui-list-right {
+  width: 5.786667rem;
+  height: 2.826667rem;
+  float: left;
+}
+.ui-recordofdonation-container li .ui-list-right h6 {
+  margin-top: .213333rem;
+  height: .933333rem;
+  line-height: .933333rem;
+  font-size: 15px;
+  font-weight: bold;
+  color: #3a3a3a;
+  margin-bottom: .093333rem;
+}
+.ui-recordofdonation-container li .ui-list-right p {
+  width: 5.786667rem;
+  height: .88rem;
+  line-height: .453333rem;
+  font-size: 10px;
+  color: #888888;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.ui-recordofdonation-container li .ui-list-right span.ui-money {
+  font-size: 12px;
+  color: #888888;
+  line-height: .506667rem;
+}
+.ui-recordofdonation-container li .ui-list-right span.ui-money em {
+  color: #fc4c56;
+}
+[data-dpr="2"] .ui-recordofdonation-container li .ui-list-right h6 {
+  font-size: 30px;
+}
+[data-dpr="3"] .ui-recordofdonation-container li .ui-list-right h6 {
+  font-size: 45px;
+}
+[data-dpr="2"] .ui-recordofdonation-container li .ui-list-right h6 span.ui-tip {
+  font-size: 22px;
+}
+[data-dpr="3"] .ui-recordofdonation-container li .ui-list-right h6 span.ui-tip {
+  font-size: 34px;
+}
+[data-dpr="2"] .ui-recordofdonation-container li .ui-list-right p {
+  font-size: 20px;
+}
+[data-dpr="3"] .ui-recordofdonation-container li .ui-list-right p {
+  font-size: 30px;
+}
+[data-dpr="2"] .ui-recordofdonation-container li .ui-list-right span.ui-money {
+  font-size: 24px;
+}
+[data-dpr="3"] .ui-recordofdonation-container li .ui-list-right span.ui-money {
+  font-size: 36px;
+}
