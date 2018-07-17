@@ -45,7 +45,7 @@ a {
 .ui-auditprocess-container li {
   width: 9.146667rem;
   height: 2.8rem;
-  border-radius: 8px;
+  border-radius: 10px;
   background: #fff;
   margin-left: auto;
   margin-right: auto;
@@ -71,6 +71,7 @@ a {
   background: #ababab;
   display: block;
   position: absolute;
+  border-radius: 1px;
   top: .2rem;
   left: 0;
 }
@@ -125,6 +126,24 @@ a {
   border-radius: .053333rem;
   margin-top: .08rem;
   float: right;
+}
+[data-dpr="2"] .ui-auditprocess-container li {
+  border-radius: 10px;
+}
+[data-dpr="3"] .ui-auditprocess-container li {
+  border-radius: 15px;
+}
+[data-dpr="2"] .ui-auditprocess-container li .ui-list-left span.ui-tips-header {
+  border-radius: 2px;
+}
+[data-dpr="3"] .ui-auditprocess-container li .ui-list-left span.ui-tips-header {
+  border-radius: 4px;
+}
+[data-dpr="2"] .ui-auditprocess-container li .ui-list-left img {
+  border-radius: 10px;
+}
+[data-dpr="3"] .ui-auditprocess-container li .ui-list-left img {
+  border-radius: 15px;
 }
 [data-dpr="2"] .ui-auditprocess-container li .ui-list-right h6 {
   font-size: 30px;

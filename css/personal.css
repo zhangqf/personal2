@@ -55,7 +55,7 @@
   height: 100%;
   vertical-align: middle;
   text-align: center;
-  border-radius:50%;
+  border-radius: 50%;
 }
 .ui-personal-header .ui-personal-bg {
   width: 10rem;
@@ -77,13 +77,17 @@
   margin-right: auto;
   background: #fff url("../images/heng_03.png") no-repeat center 0.666667rem;
 }
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-left {
+  margin-left: 1.813333rem;
+}
+.ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-right {
+  margin-left: 1.28rem;
+}
 .ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-left,
 .ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-right {
   width: 2.506667rem;
   height: 1.706667rem;
-  text-align: center;
   display: inline-block;
-  margin-left: 1.28rem;
 }
 .ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-left p.ui-num,
 .ui-personal-header .ui-personal-bg .ui-personal-show .ui-personal-right p.ui-num {
@@ -167,13 +171,12 @@
 .ui-personal-content .ui-personal-list li ul.ui-personal-detial li a {
   text-indent: 0.9rem;
   display: block;
-  color:#353535;
   border: none;
   background-color: rgba(240, 240, 240, 0.2);
 }
 .ui-personal-content .ui-personal-list li:nth-of-type(1) a.ui-tu {
   background: url('../images/personal01.png') no-repeat left center;
-   background-size: .64rem .64rem;
+  background-size: .64rem .64rem;
 }
 .ui-personal-content .ui-personal-list li:nth-of-type(2) a.ui-tu {
   background: url('../images/personal04.png') no-repeat left center;
@@ -200,7 +203,6 @@
   color: #353535;
   display: block;
   height: 1.493333rem;
-  background-size: .64rem .64rem;
 }
 .ui-personal-content .ui-personal-list li a.ui-tu span:nth-of-type(1) {
   text-indent: .906667rem;
@@ -244,7 +246,6 @@
   color: #353535;
   display: block;
   height: 100%;
-  background-size: .64rem .64rem;
 }
 .ui-personal-content .ui-personal-aboutus li a.ui-tu span:nth-of-type(1) {
   text-indent: .906667rem;
@@ -272,7 +273,7 @@
 }
 [data-dpr="2"] .ui-personal-content .ui-personal-list li a.ui-tu span:nth-of-type(2) img {
   width: .16rem;
-  height: .28444rem;
+  height: .28rem;
 }
 [data-dpr="3"] .ui-personal-content .ui-personal-list li a.ui-tu span:nth-of-type(2) img {
   width: .24rem;

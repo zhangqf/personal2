@@ -68,7 +68,7 @@ body {
 .ui-recordofdonation-container li {
   width: 9.146667rem;
   height: 2.826667rem;
-  border-radius: 8px;
+  border-radius: 5px;
   background: #fff;
   margin-left: auto;
   margin-right: auto;
@@ -84,7 +84,7 @@ body {
 .ui-recordofdonation-container li .ui-list-left img {
   width: 2.4rem;
   height: 2.4rem;
-  border-radius: 8px;
+  border-radius: 5px;
   vertical-align: middle;
 }
 .ui-recordofdonation-container li .ui-list-right {
@@ -120,6 +120,18 @@ body {
 .ui-recordofdonation-container li .ui-list-right span.ui-money em {
   color: #fc4c56;
   font-size: 12px;
+}
+[data-dpr="2"] .ui-recordofdonation-container li {
+  border-radius: 10px;
+}
+[data-dpr="3"] .ui-recordofdonation-container li {
+  border-radius: 15px;
+}
+[data-dpr="2"] .ui-recordofdonation-container li .ui-list-left img {
+  border-radius: 10px;
+}
+[data-dpr="3"] .ui-recordofdonation-container li .ui-list-left img {
+  border-radius: 15px;
 }
 [data-dpr="2"] .ui-recordofdonation-history {
   background: #fff url("../images/heng_22.png") no-repeat center center;
