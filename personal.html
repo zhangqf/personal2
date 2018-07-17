@@ -119,17 +119,17 @@
     <script src="./common//jquery-1.11.0.js " type="text/javascript "></script>
 
     <script type="text/javascript ">
-        var flag;
-        $(".ui-personal-list li ").on('click', function(event) {
+       
+        $(".ui-personal-list li ").on('singleTap', function(event) {
             event.stopPropagation();
             // $(this).find(".ui-personal-detial ").slideToggle(300)
-            flag = true
+           
 
             if (flag) {
-                $(this).siblings().find(".ui-personal-detial").slideUp(300);
+                $(this).siblings().find(".ui-personal-detial").slideUp(400);
                 $(this).find(".ui-personal-detial ").animate({
                     height: 'toggle'
-                }, 300, "swing", );
+                }, 400, "swing", );
 
             }
 
