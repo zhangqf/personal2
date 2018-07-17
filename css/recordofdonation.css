@@ -34,10 +34,35 @@ body {
 [data-dpr="3"] .ui-recordofdonation-header {
   font-size: 54px;
 }
+.ui-recordofdonation-history {
+  width: 9.146667rem;
+  height: 1.866667rem;
+  padding: 0 .426667rem;
+  background: #fff url("../images/heng_22.jpg") no-repeat center center;
+}
+.ui-recordofdonation-history .ui-recordofdonation-left {
+  width: 4.573333rem;
+  float: left;
+}
+.ui-recordofdonation-history .ui-recordofdonation-right {
+  width: 4.573333rem;
+  float: left;
+}
+.ui-recordofdonation-history p.ui-num {
+  font-size: 20px;
+  color: #fa455c;
+  margin-top: .4rem;
+  margin-left: 1.866667rem;
+}
+.ui-recordofdonation-history p.ui-personal-desc {
+  font-size: 10px;
+  color: #353535;
+  margin-left: 1.866667rem;
+}
 .ui-recordofdonation-container {
   width: 10rem;
   background: #f0f0f0;
-  padding-top: .56rem;
+  padding-top: .346667rem;
   padding-bottom: .266667rem;
 }
 .ui-recordofdonation-container li {
@@ -74,7 +99,6 @@ body {
   font-size: 15px;
   font-weight: bold;
   color: #3a3a3a;
-  margin-bottom: .093333rem;
 }
 .ui-recordofdonation-container li .ui-list-right p {
   width: 5.786667rem;
@@ -89,12 +113,31 @@ body {
   -webkit-line-clamp: 2;
 }
 .ui-recordofdonation-container li .ui-list-right span.ui-money {
-  font-size: 12px;
+  font-size: 10px;
   color: #888888;
-  line-height: .506667rem;
+  line-height: .693333rem;
 }
 .ui-recordofdonation-container li .ui-list-right span.ui-money em {
   color: #fc4c56;
+  font-size: 12px;
+}
+[data-dpr="2"] .ui-recordofdonation-history {
+  background: #fff url("../images/heng_22.png") no-repeat center center;
+}
+[data-dpr="3"] .ui-recordofdonation-history {
+  background: #fff url("../images/heng_120.png") no-repeat center center;
+}
+[data-dpr="2"] .ui-recordofdonation-history p.ui-num {
+  font-size: 40px;
+}
+[data-dpr="3"] .ui-recordofdonation-history p.ui-num {
+  font-size: 60px;
+}
+[data-dpr="2"] .ui-recordofdonation-history p.ui-personal-desc {
+  font-size: 20px;
+}
+[data-dpr="3"] .ui-recordofdonation-history p.ui-personal-desc {
+  font-size: 30px;
 }
 [data-dpr="2"] .ui-recordofdonation-container li .ui-list-right h6 {
   font-size: 30px;
@@ -115,8 +158,14 @@ body {
   font-size: 30px;
 }
 [data-dpr="2"] .ui-recordofdonation-container li .ui-list-right span.ui-money {
-  font-size: 24px;
+  font-size: 20px;
 }
 [data-dpr="3"] .ui-recordofdonation-container li .ui-list-right span.ui-money {
+  font-size: 30px;
+}
+[data-dpr="2"] .ui-recordofdonation-container li .ui-list-right span.ui-money em {
+  font-size: 24px;
+}
+[data-dpr="3"] .ui-recordofdonation-container li .ui-list-right span.ui-money em {
   font-size: 36px;
 }

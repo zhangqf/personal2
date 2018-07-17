@@ -3,6 +3,9 @@ body {
   height: 100%;
   background: #f0f0f0;
 }
+a {
+  text-decoration: none;
+}
 .ui-auditprocess-header {
   width: 10rem;
   height: 1.12rem;
@@ -41,7 +44,7 @@ body {
 }
 .ui-auditprocess-container li {
   width: 9.146667rem;
-  height: 2.826667rem;
+  height: 2.8rem;
   border-radius: 8px;
   background: #fff;
   margin-left: auto;
@@ -89,7 +92,6 @@ body {
   font-size: 15px;
   font-weight: bold;
   color: #3a3a3a;
-  margin-bottom: .093333rem;
 }
 .ui-auditprocess-container li .ui-list-right h6 span.ui-tip {
   font-size: 12px;
@@ -119,8 +121,9 @@ body {
   font-size: 10px;
   color: #707070;
   padding: .08rem .213333rem;
-  border: 2px solid #777777;
-  border-radius: 8px;
+  border: 1px solid #777777;
+  border-radius: .053333rem;
+  margin-top: .08rem;
   float: right;
 }
 [data-dpr="2"] .ui-auditprocess-container li .ui-list-right h6 {
