@@ -38,7 +38,7 @@ body {
   width: 9.146667rem;
   height: 1.866667rem;
   padding: 0 .426667rem;
-  background: #fff url("../images/heng_03.png") no-repeat center center;
+  background: #fff url("../images/reline@1x.png") no-repeat center center;
 }
 .ui-recordofdonation-history .ui-recordofdonation-left {
   width: 4.573333rem;
@@ -134,10 +134,10 @@ body {
   border-radius: 15px;
 }
 [data-dpr="2"] .ui-recordofdonation-history {
-  background: #fff url("../images/heng_22.png") no-repeat center center;
+  background: #fff url("../images/reline@2x.png") no-repeat center center;
 }
 [data-dpr="3"] .ui-recordofdonation-history {
-  background: #fff url("../images/heng_120.png") no-repeat center center;
+  background: #fff url("../images/reline@3x.png") no-repeat center center;
 }
 [data-dpr="2"] .ui-recordofdonation-history p.ui-num {
   font-size: 40px;

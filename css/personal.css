@@ -49,6 +49,8 @@
   height: 2.13rem;
   border: 0.2rem solid #ffa7b3;
   border-radius: 50%;
+  position: relative;
+  overflow: hidden;
 }
 .ui-personal-header .ui-personal-img .ui-personal-blur img {
   width: 100%;
@@ -56,6 +58,19 @@
   vertical-align: middle;
   text-align: center;
   border-radius: 50%;
+}
+.ui-personal-header .ui-personal-img .ui-personal-blur p.ui-personal-identification {
+  width: 1.73rem;
+  height: .56rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
+  background: rgba(127, 127, 127, 0.6);
+}
+.ui-personal-header .ui-personal-img .ui-personal-blur p.ui-personal-identification.active {
+  color: #528852;
 }
 .ui-personal-header .ui-personal-bg {
   width: 10rem;
@@ -169,6 +184,7 @@
   border: 1px solid #fff;
 }
 .ui-personal-content .ui-personal-list li ul.ui-personal-detial li a {
+  color: #353535;
   text-indent: 0.9rem;
   display: block;
   border: none;

@@ -18,6 +18,9 @@
         <div class="ui-personal-img ">
             <div class="ui-personal-blur ">
                 <img src="./images/17.png " alt=" ">
+                <p class="ui-personal-identification">
+                    已认证
+                </p>
             </div>
             <input type="file" id="files" style="display: none" onchange="fileImport();">
         </div>
@@ -119,19 +122,16 @@
     <script src="./common//jquery-1.11.0.js " type="text/javascript "></script>
 
     <script type="text/javascript ">
-       
         $(".ui-personal-list li ").on('click', function(event) {
             event.stopPropagation();
             // $(this).find(".ui-personal-detial ").slideToggle(300)
-           
 
-            
-                $(this).siblings().find(".ui-personal-detial").slideUp(300);
-                $(this).find(".ui-personal-detial ").animate({
-                    height: 'toggle'
-                }, 300, "swing", );
+            $(this).siblings().find(".ui-personal-detial").slideUp(300);
+            $(this).find(".ui-personal-detial ").animate({
+                height: 'toggle'
+            }, 300, "swing", );
 
-            
+
 
         })
     </script>
